@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "project-phi-one-82.vercel.app";
 
 export const registerUser = async (userData) => {
   return await axios.post(`${API_URL}/auth/register`, userData);
