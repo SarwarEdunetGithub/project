@@ -47,7 +47,7 @@ function Profile({ user, setUser }) {
   return (
     <div className="container">
       <h2>Profile</h2>
-      {image && <img src={`http://localhost:5000/${image}`} alt="Profile" className="img-thumbnail" width="150" />}
+      {image && <img src={`https://project-l5p8.onrender.com/${image}`} alt="Profile" className="img-thumbnail" width="150" />}
       <form onSubmit={handleUpdate}>
         <div className="mb-3">
           <label className="form-label">Phone Number</label>
