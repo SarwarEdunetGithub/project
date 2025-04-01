@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API_URL = "https://project-sigma-ochre.vercel.app";
-// const API_URL = "http://localhost:5000/";
+// const API_URL = "https://project-sigma-ochre.vercel.app";
+const API_URL = "http://localhost:5000/";
 
 
 export const registerUser = async (userData) => {
