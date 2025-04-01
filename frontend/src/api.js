@@ -1,7 +1,8 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api";
-// const API_URL = "https://project-sigma-ochre.vercel.app/api";
+// const API_URL = "http://localhost:5000/api";
+// const API_URL = "https://project-sigma-ochre.vercel.app/api"; //vercel
+const API_URL = "https://project-l5p8.onrender.com"; // render
 
 export const registerUser = async (userData) => {
   return await axios.post(`${API_URL}/auth/register`, userData);
